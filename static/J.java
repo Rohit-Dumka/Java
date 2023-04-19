@@ -2,8 +2,10 @@ class A{
     int eid;
     int salary;
     static String ceo;
-    static{
-        System.out.println("hello");
+   
+    static//sequence followed when using >1 static blocks 
+    {
+        System.out.println("first static");
     }
     
     public A()
@@ -15,7 +17,7 @@ class A{
 
     static 
     {
-        ceo="Pant";
+        ceo="Aditya";
         System.out.println("class called");
     }
 
