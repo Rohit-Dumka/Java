@@ -1,8 +1,4 @@
-import java.nio.channels.ClosedSelectorException;
-
-import javax.crypto.AEADBadTagException;
-import javax.sound.midi.VoiceStatus;
-import javax.sound.sampled.SourceDataLine;
+//these are just the line of codes i used to learn before few hours of my university exam.
 
 //don't forget to pass command line arguments hehe
 // public class J
