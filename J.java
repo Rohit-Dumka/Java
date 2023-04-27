@@ -20,6 +20,8 @@
 // }
 //CLA in reverse order
 
+
+//reverse of string - error have to fix rip
 // public class J
 // {
 //        public static void main(String args[])
@@ -34,7 +36,6 @@
 //         }
 //     }
 // }
-//trying reverse but not working
 
 
 //wrapper class ============>>>>>>>>>>>>
