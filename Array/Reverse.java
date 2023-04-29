@@ -1,4 +1,4 @@
-class Reverse
+class Reverse//class with main
 {
 	public static void main(String args[])
 	{
@@ -8,9 +8,10 @@ class Reverse
 		a=B.reverse(a);
 		System.out.println("\n reversed array -");
 		for(int i=0;i<a.length;i++)
-		System.out.print(a[i] + " ");
+		System.out.print(a[i] + " ");//printing reversed array
 	}
 }
+
 
 class B
 {
