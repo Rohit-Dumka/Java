@@ -757,3 +757,235 @@ import javax.xml.transform.SourceLocator;
 //         super(s);
 //     }
 // }
+
+
+
+//======================================================
+//Abstract class
+
+//------------------------------------------------------
+
+// class ap extends hello{
+//     public static void main(String[] args) {
+//         ap a=new ap();
+//         a.show();
+//         a.ok();
+//         a.hehe();
+//     }
+//     void show(){
+//         System.out.println("1");
+//     }
+//     void ok(){
+//         System.out.println("2");
+//     }
+// }
+
+// abstract class hello{
+//     abstract void show();
+//     abstract void ok();
+//     void hehe(){
+//         System.out.println("3");
+//     }
+// }
+
+
+//-----------------------------------------
+//inheritance
+//--------------------------------------
+
+
+// public class Inhert extends Inherit2{
+//     int a=9;
+//     // Inhert(){
+//     //     super(1);
+
+//     // }
+//     public static void main(String args[]){
+//         // Inherit2 obj = new Inherit2();
+//         Inhert obj2 = new Inhert();
+//         System.out.println(obj2.huihui());
+//     }
+
+//     int show(){
+//         return super.a;
+//     }
+//     int huihui(){
+//         return super.show();
+//     }
+
+// }
+// class Inherit2{
+//     int a=8;
+//     Inherit2(){        System.out.println("hello");
+//     }
+//     int show(){
+//         return 3;
+//     }
+// }
+
+//=======================================
+//           overloading
+//---------------------------------------
+
+// class o extends p{
+//     public static void main(String[] args) {
+//         o obj = new o();
+//         obj.show();
+//         obj.show(1);
+//     }
+//     //
+//     void show(int a){
+//         System.out.println("parameters : "+a);
+//     }
+// }
+// class p{
+//     void show(){
+//         System.out.println("P");
+//     }
+// }
+// //overloading in inhertance coz iski copy bhi child me avial hai too same class me 2 same methods hogye hehe 
+
+
+// //overloading in same class=> same method name but diff signature
+// class o extends p{
+//     public static void main(String[] args) {
+//         o obj = new o();
+//         obj.show();
+//         obj.show(1);
+//     }
+//     void show(){
+//         System.out.println("without parameter");
+//         super.show();
+//     }
+//     void show(int a){
+//         System.out.println("parameters : "+a);
+//     }
+// }
+
+
+// //overloading + overriding
+// class o extends p{
+//     public static void main(String[] args) {
+//         o obj = new o();
+//         obj.show();
+//         obj.show(1);
+//     }
+//     void show(){
+//         System.out.println("without parameter");
+//         super.show();
+//     }
+//     void show(int a){
+//         System.out.println("parameters : "+a);
+//     }
+// }
+// class p{
+//     void show(){
+//         System.out.println("P");
+//     }
+// }
+
+// overload- compiletime 
+// overriding - runtime
+
+
+
+//annonymous class-----------------------
+//----------------------------------
+
+// class eno{
+//     public static void main(String[] args) {
+//         //parent a=new chld()
+//         eno a = new eno(){//eno=eno+additional => inheritance in simple terms or upcasting . annonymous class
+//             int a=10;
+//             void show(){
+//                 System.out.println("Anonymous class");
+//             }
+//         };
+//         a.show();
+//     }
+//     void show(){
+//         System.out.println("eno");
+//     }
+// }
+
+
+
+//wrapper class 
+
+// public class wrap {
+//     int i=0;
+//     Integer j = (Integer)2;
+//     int k=(int)j;
+// }
+
+
+//------------------------------------
+
+//upcasting and downcasting
+
+//------------------------------------
+
+import java.security.cert.CertPathBuilderException;
+
+// public class updown extends temp{
+//     public static void main(String[] args) {
+//         temp obj = new updown(); //parent ka obj , memory mil rhi hai child ki
+//         obj.show();
+//         // obj.disp(); coz disp ke liye storage nahi hai 
+//         obj.display();
+//     }
+//     // void show(){
+//     //     System.out.println("updown : show");
+//     // }
+//     void disp(){
+//         System.out.println("updown : disp");
+//     }
+// }
+// class temp{
+//     int a=9;
+//     void show(){
+//         System.out.println("temp : show");
+//     }
+//     void display(){
+//         System.out.println("temp : display");
+//     }
+// }
+
+
+
+// public class updown extends temp{
+//     public static void main(String[] args) {
+//         // temp obj3=new child();
+//         //child obj4=(child)(obj3);
+//         temp obj = new updown(); 
+//         updown obj2 = (updown)(obj);
+//         //parent ki memory, child ko milegi.... 
+//         //jiss child ko upcast kiya h.... uah object wapas ussi child me downcast hoga
+//         obj2.show();
+//         obj2.display();
+//         obj2.disp();
+//     }
+//     void show(){
+//         System.out.println("updown : show");
+//     }
+//     void disp(){
+//         System.out.println("updown : disp");
+//     }
+// }
+// class child extends temp{
+//     void show(){
+//         System.out.println("child : show");
+//     }
+//     void disp(){
+//         System.out.println("child : disp");
+//     }
+// }
+// class temp{
+//     int a=9;
+//     void show(){
+//         System.out.println("temp : show");
+//     }
+//     void display(){
+//         System.out.println("temp : display");
+//     }
+// }
