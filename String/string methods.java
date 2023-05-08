@@ -13,3 +13,15 @@ class A
         //endswith("suffix")
     }
 }
+
+
+class A
+{
+    public static void main(String args[])
+    {
+        System.out.println("java".indexOf("a");
+        Sytem.out.println("java".indexOf("v");
+        System.out.println("abcdaba".indexOf("a",1); //ignore what's before start checking from index 1 if found return index
+        System.out.println("aabjavacde".indexOf("av"); //return index of av if av is found , return only 1 index from where the substring begins
+    }
+}
