@@ -17,3 +17,27 @@ class str{
      System.out.println(s);   
     }
 }
+
+
+//concat of strings 
+// we can concat two or more strings ezpz using + operator or concat method
+//syntax==>
+// String a="abc"; String b= "cd";a+b;         : abccd
+//a+ " hello";                                 : abc hello 
+//"ro" + "hit"                                 : rohit 
+//"hey" + " java" + " is" + " beautiful"       : hey java is beautiful
+//a.concat(b)                                  : abccd
+class str{
+    public static void main(String[] args) {
+        String a="git";
+        String b="hub";
+        String s1="Rohit";
+        String s2="Dumka";
+
+        System.out.println(a+b);
+        System.out.println(s1+" hello");   
+        System.out.println(s1 + " " + s2);
+        System.out.println(a.concat(b));
+    }
+}
+
