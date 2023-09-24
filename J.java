@@ -165,7 +165,7 @@
 // {
 //     public static void main(String args[]) {
 //         Object a[]={1,2.3,'hello'};//upcasting
-//         System.out.println(a]0);
+//         System.out.println(a[0]);
 //     }
 // }
 
